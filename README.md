@@ -12,4 +12,4 @@ Work with a partner to implement the following user stories:
 
 See below for a preview of the web page:
 
-![Alt text](/assets/images/readme-image-1.png?raw=true)
+![The final webpage should appear as shown here](./assets/images/readme-image-1.PNG)
