@@ -1,13 +1,16 @@
+/* styles entire file */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* styles every body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* styles every header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* styles every h1 element that is a descendant of a header element */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styles everything with the class .seo that is within an h1 element that is a descendant of a header element*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles every nav element that is a descendant of a header element */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,49 +38,50 @@ header nav {
     font-size: 20px;
 }
 
+/* styles every ul element that is a descendant of a nav element that is a descendant of a header element */
 header nav ul {
     list-style-type: none;
 }
 
+/* styles every li element that is a descendant of a ul element that is a descendant of a nav element that is a descendant of a header element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styles every a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* styles every p element */
 p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+/* styles any element with a class of article-style */
+.article-style {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* styles any img element with a parent of class of article-style */
+.article-style img {
+    max-height: 200px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+/* styles any h2 element with a parent of class of article-style */
+.article-style h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* styles any element with a class of benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +93,45 @@ p {
     background-color: #2589bd;
 }
 
+/* styles any element with a class of benefit-main */
 .benefit-main {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* styles any h3 element with a parent of class of benefit-main */
 .benefit-main h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* styles any img element with a parent of class of benefit-main */
 .benefit-main img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.article-style {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* styles any element with a class of content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.article-style img {
-    max-height: 200px;
+/* styles any element with a class of float-left */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.article-style h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* styles any element with a class of float-right */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
+/* styles any element with a class of footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +139,17 @@ p {
     text-align: center;
 }
 
+/* styles any h2 element with a parent of class of footer */
 .footer h2 {
     font-size: 20px;
+}
+
+/* styles any element with a class of hero */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
